@@ -1,0 +1,31 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="recyclerAdapter"
+            type="com.example.jingbin.cloudreader.adapter.OneAdapter" />
+
+        <variable
+            name="viewmodel"
+            type="com.example.jingbin.cloudreader.viewmodel.movie.OneViewModel" />
+    </data>
+
+    <!--为了出现下拉阴影效果（加了上面的控件后就没有了）-->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="@color/tabBackground"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <me.jingbin.library.ByRecyclerView
+            android:id="@+id/list_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </FrameLayout>
+</layout>

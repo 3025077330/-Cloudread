@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <data>
+
+        <import type="android.text.TextUtils" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="listener"
+            type="com.example.jingbin.cloudreader.ui.film.child.FilmDetailActivity" />
+
+        <variable
+            name="bean"
+            type="com.example.jingbin.cloudreader.bean.FilmDetailBean.FilmDetailDataBean.BasicBean" />
+
+        <variable
+            name="boxOffice"
+            type="com.example.jingbin.cloudreader.bean.FilmDetailBean.FilmDetailDataBean.BoxOfficeBean" />
+
+        <variable
+            name="video"
+            type="com.example.jingbin.cloudreader.bean.FilmDetailBean.FilmDetailDataBean.BasicBean.VideoBean" />
+    </data>
+
+
+    <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_one_movie_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jingbin.cloudreader.ui.film.child.FilmDetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--又名-->
+            <TextView
+                android:id="@+id/tv_one_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text='@{bean.commentSpecial}'
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold|italic"
+                android:visibility="@{TextUtils.isEmpty(bean.commentSpecial)?View.GONE:View.VISIBLE}"
+                tools:text="“超级英雄们共谋大计战灭霸”" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="简介"
+                    android:textColor="@color/colorContent"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="7dp"
+                android:padding="12dp"
+                android:text="@{bean.story}"
+                android:textColor="@color/colorTitle"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:visibility="@{listener.isShowActor?View.VISIBLE:View.GONE}">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="演职员"
+                    android:textColor="@color/colorContent"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <!--导演&演员-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/xrv_cast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:visibility="@{listener.isShowActor?View.VISIBLE:View.GONE}" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:visibility="@{listener.isShowBoxOffice?View.VISIBLE:View.GONE}">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="票房"
+                    android:textColor="@color/colorContent"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorSmallRed"
+                android:orientation="horizontal"
+                android:visibility="@{listener.isShowBoxOffice?View.VISIBLE:View.GONE}">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text='@{boxOffice.todayBoxDes}'
+                        android:textColor="@color/colorTheme"
+                        android:textSize="17sp"
+                        tools:text="996.76" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text='@{boxOffice.todayBoxDesUnit}'
+                        android:textSize="14sp"
+                        tools:text="今日实时(万)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text='@{boxOffice.totalBoxDes}'
+                        android:textColor="@color/colorTheme"
+                        android:textSize="17sp"
+                        tools:text="996.76" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text='@{boxOffice.totalBoxUnit}'
+                        android:textSize="14sp"
+                        tools:text="今日实时(万)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{@string/string_empty+boxOffice.ranking}"
+                        android:textColor="@color/colorTheme"
+                        android:textSize="17sp"
+                        tools:text="996.76" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="累计排名"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:visibility="@{listener.isShowVideo?View.VISIBLE:View.GONE}">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="预告片"
+                    android:textColor="@color/colorContent"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <!--640*360-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="@{listener.isShowVideo?View.VISIBLE:View.GONE}">
+
+                <ImageView
+                    android:id="@+id/iv_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="centerCrop"
+                    android:showImg='@{video.img}'
+                    tools:background="@color/color_page_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_film_play" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="剧照"
+                    android:textColor="@color/colorContent"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/xrv_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="30dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>

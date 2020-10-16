@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <variable
+            name="time"
+            type="String" />
+
+        <import type="android.text.TextUtils" />
+        <!--用于控制是否显示-->
+        <import type="android.view.View" />
+
+        <variable
+            name="bean"
+            type="com.example.jingbin.cloudreader.bean.wanandroid.DuanZiBean" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/ll_item_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_joke_item_bg"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:displayCircle='@{bean.avatarUrl}'
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{bean.name ?? @string/no_name_joke}"
+                    android:textSize="14sp"
+                    tools:text="用户名" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@{time}"
+                    android:textSize="12sp"
+                    tools:text="2018-10-07" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginEnd="5dp"
+            android:lineSpacingExtra="4dp"
+            android:text="@{bean.content}"
+            android:textColor="@color/colorContent"
+            android:textSize="15sp"
+            tools:text="这是内容" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="25dp"
+            android:text="@{@string/string_joke + bean.categoryName}"
+            android:textSize="12sp"
+            android:visibility="@{TextUtils.isEmpty(bean.categoryName) ? View.GONE : View.VISIBLE}"
+            tools:text="匿名用户" />
+
+    </LinearLayout>
+</layout>

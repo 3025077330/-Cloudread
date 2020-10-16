@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+
+        <variable
+            name="bean"
+            type="com.example.jingbin.cloudreader.bean.FilmDetailBean.ImageListBean" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:imageWidthDp="@{140}"
+            android:imageHeightDp="@{100}"
+            android:imageUrl='@{bean.imgUrl}'
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+</layout>

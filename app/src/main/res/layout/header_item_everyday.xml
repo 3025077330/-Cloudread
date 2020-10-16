@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <me.jingbin.sbanner.SBannerView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:delay_time="4000"
+            app:indicator_drawable_selected="@drawable/banner_red"
+            app:indicator_drawable_unselected="@drawable/banner_grey"
+            app:indicator_height="8dp"
+            app:indicator_margin="8dp"
+            app:indicator_padding="2dp"
+            app:indicator_width="8dp"
+            app:is_auto_play="true"
+            app:is_back_loop="false"
+            tools:background="@color/colorNaviBg" />
+
+        <include
+            android:id="@+id/include_everyday"
+            layout="@layout/home_middle_layout" />
+
+    </LinearLayout>
+</layout>
