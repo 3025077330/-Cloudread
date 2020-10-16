@@ -1,13 +1,8 @@
 # CloudReader
 
-[![Apache License 2.0][1]][2]
-[![coolapk.com][34]][35] 
-[![Release Version][30]][31]
-[![API][3]][4]
-[![Codacy Badge][36]][37]
 
 
-> Netease cloud music Ui && Retrofit2 + RxJava2 + MVVM-databinding && wanandroid、Gank.Io、mtime Api 
+
 
 
 ## Introduce
