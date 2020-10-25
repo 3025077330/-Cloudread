@@ -19,7 +19,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
 /**
- * Created by jingbin on 2016/11/25.
+ * 玩安卓适配器
  */
 
 public class WanAndroidAdapter extends BaseBindingAdapter<ArticlesBean, ItemWanAndroidBinding> {

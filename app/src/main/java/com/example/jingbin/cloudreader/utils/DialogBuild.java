@@ -20,11 +20,7 @@ import me.jingbin.bymvvm.room.UserDataCallback;
 import me.jingbin.bymvvm.rxbus.RxBus;
 
 
-/**
- * @author jingbin
- * @data 2018/2/27
- * @Description
- */
+
 
 public class DialogBuild {
 

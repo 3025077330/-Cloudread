@@ -1,8 +1,5 @@
 package me.jingbin.bymvvm.rxbus;
 
-/**
- * Created by jingbin on 16/5/17.
- */
 public class RxBusBaseMessage {
 
     private int code;

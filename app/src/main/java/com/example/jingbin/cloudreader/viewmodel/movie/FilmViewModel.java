@@ -17,10 +17,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 
-/**
- * @author jingbin
- * @data 2019/05/14
- */
+
 
 public class FilmViewModel extends BaseViewModel {
 

@@ -25,12 +25,6 @@ import androidx.annotation.VisibleForTesting;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-/**
- * Global executor pools for the whole application.
- * <p>
- * Grouping tasks like this avoids the effects of task starvation (e.g. disk reads don't User behind
- * webservice requests).
- */
 public class AppExecutors {
 
     private static final int THREAD_COUNT = 3;

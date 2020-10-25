@@ -19,7 +19,6 @@ import java.util.ArrayList;
 /**
  * 玩安卓积分
  *
- * @author jingbin
  */
 public class MyCoinActivity extends BaseActivity<NoViewModel, ActivityMyCollectBinding> {
 

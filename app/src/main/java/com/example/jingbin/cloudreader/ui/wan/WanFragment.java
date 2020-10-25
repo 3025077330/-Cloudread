@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import me.jingbin.bymvvm.base.BaseFragment;
 
 /**
- * Created by jingbin on 16/12/14.
  * 展示玩安卓的页面
  */
 public class WanFragment extends BaseFragment<NoViewModel, FragmentContentBinding> {

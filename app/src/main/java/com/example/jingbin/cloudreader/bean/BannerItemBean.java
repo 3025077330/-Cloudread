@@ -2,9 +2,7 @@ package com.example.jingbin.cloudreader.bean;
 
 import java.io.Serializable;
 
-/**
- * Created by jingbin on 2018/12/23.
- */
+
 
 public class BannerItemBean implements Serializable {
 

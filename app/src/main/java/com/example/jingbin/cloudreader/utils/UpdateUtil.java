@@ -16,9 +16,7 @@ import me.jingbin.bymvvm.base.BaseActivity;
 
 
 /**
- * @author jingbin
- * @data 2020/03/04
- * @Description 更新提醒
+ 更新提醒
  */
 public class UpdateUtil {
 

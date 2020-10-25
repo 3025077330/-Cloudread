@@ -15,8 +15,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author jingbin
- * @data 2018/5/28
+ *ViewModel基类
  */
 public class BaseViewModel extends AndroidViewModel {
 

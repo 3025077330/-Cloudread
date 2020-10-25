@@ -12,8 +12,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author jingbin
- * @data 2017/12/14
+ *
  * @Description 电影部分
  */
 @SuppressLint("CheckResult")

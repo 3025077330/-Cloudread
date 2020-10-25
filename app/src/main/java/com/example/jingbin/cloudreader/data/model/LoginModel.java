@@ -10,7 +10,7 @@ import io.reactivex.schedulers.Schedulers;
 
 
 /**
- * Created by jingbin on 2018/11/8.
+ *
  * 登出的model
  */
 

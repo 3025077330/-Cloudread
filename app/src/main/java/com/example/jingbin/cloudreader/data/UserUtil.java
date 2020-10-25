@@ -12,8 +12,7 @@ import me.jingbin.bymvvm.room.User;
 import me.jingbin.bymvvm.room.UserDataCallback;
 
 /**
- * @author jingbin
- * @data 2018/5/7
+ *
  * @Description 处理用户登录问题
  */
 

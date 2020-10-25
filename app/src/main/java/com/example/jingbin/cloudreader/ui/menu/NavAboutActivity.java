@@ -18,9 +18,7 @@ import com.example.jingbin.cloudreader.utils.UpdateUtil;
 import com.example.jingbin.cloudreader.ui.WebViewActivity;
 import me.jingbin.bymvvm.base.NoViewModel;
 
-/**
- * @author jingbin
- */
+
 public class NavAboutActivity extends BaseActivity<NoViewModel, ActivityNavAboutBinding> {
 
     @Override

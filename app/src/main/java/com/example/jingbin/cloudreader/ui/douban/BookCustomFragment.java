@@ -28,7 +28,6 @@ import io.reactivex.schedulers.Schedulers;
 /**
  * 已废弃，使用{@link BookListFragment}，替代
  *
- * @author jingbin
  */
 @Deprecated
 public class BookCustomFragment extends BaseFragment<NoViewModel, FragmentBookCustomBinding> {

@@ -45,9 +45,6 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by jingbin on 2017/2/14.
- * updated by jingbin on 2019/2/25.
- * updated by jingbin on 2020/6/21.
  * 网络请求工具类, 使用时请在"Application"下初始化。
  */
 

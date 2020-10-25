@@ -7,9 +7,7 @@ import java.lang.reflect.Type;
 
 import me.jingbin.bymvvm.base.NoViewModel;
 
-/**
- * Created by jingbin on 2018/12/26.
- */
+
 
 public class ClassUtil {
 

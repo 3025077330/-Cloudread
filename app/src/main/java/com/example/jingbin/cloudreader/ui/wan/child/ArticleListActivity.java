@@ -18,7 +18,6 @@ import me.jingbin.library.ByRecyclerView;
 /**
  * 玩安卓分类文章列表
  *
- * @author jingbin
  */
 public class ArticleListActivity extends BaseActivity<WanAndroidListViewModel, FragmentWanAndroidBinding> {
 

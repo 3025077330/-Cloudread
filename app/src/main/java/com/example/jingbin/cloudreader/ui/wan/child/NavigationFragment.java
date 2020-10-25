@@ -34,8 +34,6 @@ import me.jingbin.library.stickyview.StickyGridLayoutManager;
 import me.jingbin.library.view.OnItemFilterClickListener;
 
 /**
- * @author jingbin
- * @date 2018/10/8.
  * @description 导航数据
  */
 public class NavigationFragment extends BaseFragment<NavigationViewModel, FragmentNaviBinding> {

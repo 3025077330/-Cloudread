@@ -27,8 +27,6 @@ import io.reactivex.schedulers.Schedulers;
 
 
 /**
- * @author jingbin
- * @data 2019/3/13
  * @Description 搜索ViewModel
  */
 

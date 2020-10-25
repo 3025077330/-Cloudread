@@ -15,8 +15,6 @@ import io.reactivex.schedulers.Schedulers;
 
 
 /**
- * @author jingbin
- * @data 2018/12/3
  * @Description wanandroid知识体系的ViewModel
  */
 

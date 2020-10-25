@@ -16,9 +16,7 @@ import com.example.jingbin.cloudreader.utils.ToastUtil;
 import com.example.jingbin.cloudreader.ui.WebViewActivity;
 import me.jingbin.bymvvm.base.NoViewModel;
 
-/**
- * @author jingbin
- */
+
 public class NavDeedBackActivity extends BaseActivity<NoViewModel, ActivityNavDeedBackBinding> {
 
     @Override

@@ -23,10 +23,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Created by jingbin on 2016/12/1.
- * 每日推荐model
- */
+
 public class EverydayModel {
 
     private String year = "2016";

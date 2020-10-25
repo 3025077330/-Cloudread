@@ -35,8 +35,6 @@ import me.jingbin.library.decoration.SpacesItemDecoration;
 import me.jingbin.library.view.OnItemFilterClickListener;
 
 /**
- * @author jingbin
- * @date 2018/09/15.
  * @description 知识体系
  */
 public class TreeFragment extends BaseFragment<TreeViewModel, FragmentWanAndroidBinding> {

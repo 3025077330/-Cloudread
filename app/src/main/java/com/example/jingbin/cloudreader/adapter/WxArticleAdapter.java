@@ -8,9 +8,7 @@ import com.example.jingbin.cloudreader.utils.CommonUtils;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * Created by jingbin on 2019/9/29.
- */
+
 
 public class WxArticleAdapter extends BaseBindingAdapter<WxarticleItemBean, ItemWxarticleBinding> {
 

@@ -4,9 +4,7 @@ import com.example.jingbin.cloudreader.bean.moviechild.FilmItemBean;
 
 import java.util.List;
 
-/**
- * @author jingbin
- */
+
 public class MtimeFilmeBean {
 
     private String code;

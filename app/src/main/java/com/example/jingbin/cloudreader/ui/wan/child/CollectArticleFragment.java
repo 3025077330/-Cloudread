@@ -19,8 +19,6 @@ import com.example.jingbin.cloudreader.viewmodel.wan.ArticleListViewModel;
 import me.jingbin.library.ByRecyclerView;
 
 /**
- * @author jingbin
- * @date 2018/09/27.
  * @description 文章
  */
 public class CollectArticleFragment extends BaseFragment<ArticleListViewModel, FragmentWanAndroidBinding> {

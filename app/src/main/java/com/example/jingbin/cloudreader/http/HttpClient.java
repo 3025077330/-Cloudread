@@ -39,8 +39,6 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
- * @author jingbin
- * @date 16/11/21
  * 网络请求类（一个接口一个方法）
  */
 public interface HttpClient {

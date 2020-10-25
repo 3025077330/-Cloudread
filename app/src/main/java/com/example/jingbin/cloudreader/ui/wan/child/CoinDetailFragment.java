@@ -27,8 +27,6 @@ import me.jingbin.bymvvm.room.User;
 import me.jingbin.library.ByRecyclerView;
 
 /**
- * @author jingbin
- * @date 2019/09/26.
  * @description 积分详情
  */
 public class CoinDetailFragment extends BaseFragment<CoinListViewModel, FragmentWanAndroidBinding> {

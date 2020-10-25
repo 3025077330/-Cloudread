@@ -6,7 +6,7 @@ import com.tencent.bugly.crashreport.CrashReport;
 import me.jingbin.bymvvm.base.RootApplication;
 
 /**
- * Created by jingbin on 2016/11/22.
+ * App 进行一些不太耗时的初始化工作
  */
 
 public class App extends RootApplication {

@@ -12,10 +12,7 @@ import com.example.jingbin.cloudreader.R;
 import jp.wasabeef.glide.transformations.BlurTransformation;
 
 
-/**
- * @author jingbin
- * @date 2019/04/29
- */
+
 
 public class GlideUtil {
 

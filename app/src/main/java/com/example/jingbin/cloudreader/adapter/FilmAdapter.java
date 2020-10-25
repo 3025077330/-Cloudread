@@ -12,9 +12,7 @@ import com.nineoldandroids.view.ViewPropertyAnimator;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * @author jingbin
- */
+
 public class FilmAdapter extends BaseBindingAdapter<FilmItemBean, ItemFilmBinding> {
 
     private Activity activity;

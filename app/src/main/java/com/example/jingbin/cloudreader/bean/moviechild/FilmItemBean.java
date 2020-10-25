@@ -5,9 +5,7 @@ import android.text.TextUtils;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @author jingbin
- */
+
 public class FilmItemBean implements Serializable {
 
 

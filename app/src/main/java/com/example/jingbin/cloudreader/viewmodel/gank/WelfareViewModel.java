@@ -22,8 +22,6 @@ import me.jingbin.bymvvm.base.BaseViewModel;
 
 
 /**
- * @author jingbin
- * @data 2018/1/17
  * @Description 福利页面ViewModel
  */
 

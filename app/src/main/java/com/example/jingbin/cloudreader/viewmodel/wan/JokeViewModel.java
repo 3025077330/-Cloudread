@@ -13,8 +13,6 @@ import java.util.List;
 import io.reactivex.disposables.Disposable;
 
 /**
- * @author jingbin
- * @data 2018/2/8
  * @Description 玩安卓ViewModel
  */
 

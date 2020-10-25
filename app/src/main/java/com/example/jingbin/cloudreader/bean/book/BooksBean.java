@@ -11,9 +11,7 @@ import java.util.List;
 
 import me.jingbin.bymvvm.http.ParamNames;
 
-/**
- * Created by jingbin on 2016/12/15.
- */
+
 
 public class BooksBean extends BaseObservable implements Serializable{
 

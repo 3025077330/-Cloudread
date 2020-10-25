@@ -22,9 +22,6 @@ import java.util.Queue;
 import me.jingbin.library.adapter.BaseByViewHolder;
 import me.jingbin.library.adapter.BaseRecyclerAdapter;
 
-/**
- * Update by jingbin on 2020/1/03.
- */
 
 public class TreeAdapter extends BaseRecyclerAdapter<TreeItemBean> {
 

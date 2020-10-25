@@ -29,8 +29,8 @@ import me.jingbin.bymvvm.utils.CommonUtils;
 import me.jingbin.bymvvm.utils.StatusBarUtil;
 
 /**
- * @author jingbin
- * @date 16/12/10
+ * Activity基类
+ *
  */
 public abstract class BaseActivity<VM extends AndroidViewModel, SV extends ViewDataBinding> extends AppCompatActivity {
 

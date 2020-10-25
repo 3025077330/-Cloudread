@@ -16,7 +16,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
 /**
- * Created by jingbin on 2016/12/10.
+ * 豆瓣适配器
  */
 
 public class DouBanTopAdapter extends BaseBindingAdapter<SubjectsBean, ItemDoubanTopBinding> {

@@ -1,10 +1,6 @@
 package com.example.jingbin.cloudreader.bean;
 
-/**
- * @author jingbin
- * @data 2018/2/8
- * @Description
- */
+
 
 public class UpdateBean {
 

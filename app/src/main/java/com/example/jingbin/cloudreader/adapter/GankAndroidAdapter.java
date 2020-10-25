@@ -13,7 +13,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
 /**
- * Created by jingbin on 2016/12/2.
+ *
  */
 
 public class GankAndroidAdapter extends BaseBindingAdapter<GankIoDataBean.ResultBean, ItemAndroidBinding> {

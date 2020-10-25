@@ -19,8 +19,6 @@ import me.jingbin.library.ByRecyclerView;
 import me.jingbin.library.decoration.SpacesItemDecoration;
 
 /**
- * @author jingbin
- * @date 2019/01/18.
  * @description 体系类别详情页面
  */
 public class CategoryArticleFragment extends BaseFragment<WanAndroidListViewModel, FragmentCategoryArticleBinding> {

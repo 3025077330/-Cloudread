@@ -23,9 +23,7 @@ import com.example.jingbin.cloudreader.viewmodel.movie.OneViewModel;
 
 import me.jingbin.library.ByRecyclerView;
 
-/**
- * @author jingbin
- */
+
 public class OneFragment extends BaseFragment<OneViewModel, FragmentOneBinding> {
 
     // 初始化完成后加载数据

@@ -17,9 +17,7 @@ import com.example.jingbin.cloudreader.viewmodel.wan.WanNavigator;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * Created by jingbin on 2016/11/25.
- */
+
 
 public class CollectUrlAdapter extends BaseBindingAdapter<CollectUrlBean.DataBean, ItemCollectLinkBinding> {
 

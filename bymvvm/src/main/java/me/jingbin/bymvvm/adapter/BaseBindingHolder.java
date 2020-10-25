@@ -10,7 +10,7 @@ import me.jingbin.library.adapter.BaseByViewHolder;
 
 
 /**
- * https://github.com/youlookwhat/ByRecyclerView
+ * BindHolder基类
  */
 public abstract class BaseBindingHolder<T, B extends ViewDataBinding> extends BaseByViewHolder<T> {
 

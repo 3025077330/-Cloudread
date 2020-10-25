@@ -9,9 +9,7 @@ import com.example.jingbin.cloudreader.app.Constants;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jingbin on 2015/2/26.
- */
+
 public class SPUtils {
 
     private static final String CONFIG = "config";

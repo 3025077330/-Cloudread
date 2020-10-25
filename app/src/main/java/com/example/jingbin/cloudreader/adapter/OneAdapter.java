@@ -15,9 +15,7 @@ import com.nineoldandroids.view.ViewPropertyAnimator;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * Created by jingbin on 2016/11/25.
- */
+
 
 public class OneAdapter extends BaseBindingAdapter<SubjectsBean, ItemOneBinding> {
 

@@ -14,9 +14,6 @@ import com.example.jingbin.cloudreader.ui.wan.WanFragment;
 
 import java.util.List;
 
-/**
- * Created by jingbin on 2016/12/6.
- */
 
 public class MyFragmentPagerAdapter extends FragmentStatePagerAdapter {
 

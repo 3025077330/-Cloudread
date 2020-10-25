@@ -16,8 +16,6 @@ import com.example.jingbin.cloudreader.utils.RefreshHelper;
 import com.example.jingbin.cloudreader.viewmodel.wan.CollectLinkModel;
 
 /**
- * @author jingbin
- * @date 2018/09/27.
  * @description 网址
  */
 public class CollectLinkFragment extends BaseFragment<CollectLinkModel, FragmentWanAndroidBinding> {

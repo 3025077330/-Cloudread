@@ -13,9 +13,7 @@ import com.example.jingbin.cloudreader.http.cache.ACache;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author jingbin
- */
+
 public class DataUtil {
 
     /**

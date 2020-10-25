@@ -16,8 +16,6 @@ import io.reactivex.schedulers.Schedulers;
 
 
 /**
- * @author jingbin
- * @data 2019/9/26
  * @Description 积分ViewModel
  */
 

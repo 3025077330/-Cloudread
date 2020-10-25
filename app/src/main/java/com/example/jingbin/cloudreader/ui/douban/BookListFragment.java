@@ -21,10 +21,7 @@ import com.example.jingbin.cloudreader.viewmodel.movie.BookListViewModel;
 
 import me.jingbin.library.ByRecyclerView;
 
-/**
- * @author jingbin
- *
- */
+
 public class BookListFragment extends BaseFragment<BookListViewModel, FragmentWanAndroidBinding> {
 
     private static final String TYPE = "param1";

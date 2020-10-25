@@ -7,9 +7,7 @@ import com.example.jingbin.cloudreader.databinding.ItemNavigationBinding;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * Created by jingbin on 2018/10/13.
- */
+
 
 public class NavigationAdapter extends BaseBindingAdapter<NaviJsonBean.DataBean, ItemNavigationBinding> {
 

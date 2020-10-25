@@ -15,11 +15,7 @@ import me.jingbin.bymvvm.base.BaseViewModel;
 
 /**
  * 干货集中营页面 ViewModel
- *
- * @author jingbin
- * @data 2019/3/14
- */
-
+**/
 public class GankViewModel extends BaseViewModel {
 
     private final GankOtherModel mModel;

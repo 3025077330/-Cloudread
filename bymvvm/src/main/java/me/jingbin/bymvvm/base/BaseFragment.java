@@ -27,8 +27,6 @@ import me.jingbin.bymvvm.utils.ClassUtil;
 
 /**
  * 是没有title的Fragment
- *
- * @author jingbin
  */
 public abstract class BaseFragment<VM extends AndroidViewModel, SV extends ViewDataBinding> extends Fragment {
 

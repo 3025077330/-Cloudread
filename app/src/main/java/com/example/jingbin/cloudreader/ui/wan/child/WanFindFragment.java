@@ -35,8 +35,6 @@ import io.reactivex.functions.Consumer;
 import me.jingbin.library.ByRecyclerView;
 
 /**
- * @author jingbin
- * @date 2019/9/29.
  * @description 发现订制
  */
 public class WanFindFragment extends BaseFragment<WanFindViewModel, FragmentWanFindBinding> {

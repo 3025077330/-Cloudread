@@ -17,9 +17,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 import me.jingbin.library.adapter.BaseByRecyclerViewAdapter;
 import me.jingbin.library.adapter.BaseByViewHolder;
 
-/**
- * Created by jingbin on 2019/9/26.
- */
+
 
 public class CoinAdapter extends BaseByRecyclerViewAdapter<CoinLogBean, BaseByViewHolder> {
 

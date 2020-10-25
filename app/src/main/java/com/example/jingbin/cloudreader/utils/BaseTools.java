@@ -19,9 +19,7 @@ import com.example.jingbin.cloudreader.app.App;
 
 import java.util.List;
 
-/**
- * Created by jingbin on 2017/2/13.
- */
+
 
 public class BaseTools {
 

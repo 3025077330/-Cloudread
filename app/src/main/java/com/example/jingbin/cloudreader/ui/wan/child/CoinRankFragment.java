@@ -23,8 +23,6 @@ import com.example.jingbin.cloudreader.viewmodel.wan.CoinListViewModel;
 import me.jingbin.library.ByRecyclerView;
 
 /**
- * @author jingbin
- * @date 2019/09/26.
  * @description 积分详情
  */
 public class CoinRankFragment extends BaseFragment<CoinListViewModel, FragmentWanAndroidBinding> {

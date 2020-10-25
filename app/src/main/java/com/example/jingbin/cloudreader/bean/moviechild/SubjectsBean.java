@@ -11,7 +11,7 @@ import java.util.List;
 import me.jingbin.bymvvm.http.ParamNames;
 
 /**
- * Created by jingbin on 2016/11/25.
+ *
  * 豆瓣热映item详情
  */
 

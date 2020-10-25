@@ -19,8 +19,6 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author jingbin
- * @data 2018/12/3
  * @Description wanandroid导航数据的ViewModel
  */
 

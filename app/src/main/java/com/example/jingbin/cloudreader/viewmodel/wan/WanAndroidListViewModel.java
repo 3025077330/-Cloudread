@@ -16,8 +16,6 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author jingbin
- * @data 2018/2/8
  * @Description 玩安卓ViewModel
  */
 

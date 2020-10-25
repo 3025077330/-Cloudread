@@ -46,8 +46,7 @@ import me.jingbin.library.decoration.SpacesItemDecoration;
 /**
  * 搜索页面
  *
- * @author jingbin
- */
+ * */
 public class SearchActivity extends AppCompatActivity {
 
     private ActivitySearchBinding binding;

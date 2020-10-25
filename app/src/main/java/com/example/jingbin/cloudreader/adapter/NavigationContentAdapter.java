@@ -18,9 +18,6 @@ import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 import me.jingbin.library.adapter.BaseByRecyclerViewAdapter;
 import me.jingbin.library.stickyview.StickyHeaderHandler;
 
-/**
- * Created by jingbin on 2019/7/14.
- */
 
 public class NavigationContentAdapter extends BaseByRecyclerViewAdapter<ArticlesBean, BaseBindingHolder> {
 

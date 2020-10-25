@@ -16,10 +16,7 @@ import com.example.jingbin.cloudreader.viewmodel.movie.DoubanTopViewModel;
 
 import me.jingbin.library.ByRecyclerView;
 
-/**
- * Created by jingbin on 16/12/10.
- * Updated by jingbin on 17/12/26.
- */
+
 public class DoubanTopActivity extends BaseActivity<DoubanTopViewModel, ActivityDoubanTopBinding> {
 
     private DouBanTopAdapter mDouBanTopAdapter;

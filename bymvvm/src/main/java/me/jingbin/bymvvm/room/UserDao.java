@@ -11,11 +11,7 @@ import java.util.List;
 
 import io.reactivex.Flowable;
 
-/**
- * @author jingbin
- * @Description Data Access Object for the User table.
- * @date 2018/3/13
- */
+
 @Dao
 public interface UserDao {
 

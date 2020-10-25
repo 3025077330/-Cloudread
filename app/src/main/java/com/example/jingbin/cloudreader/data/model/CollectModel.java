@@ -9,11 +9,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 
-/**
- * @author jingbin
- * @data 2018/5/10
- * @Description
- */
+
 
 public class CollectModel {
 

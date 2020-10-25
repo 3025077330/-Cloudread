@@ -36,9 +36,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 import me.jingbin.library.adapter.BaseByRecyclerViewAdapter;
 import me.jingbin.library.adapter.BaseByViewHolder;
 
-/**
- * Created by jingbin on 2016/12/27.
- */
+
 
 public class EverydayAdapter extends BaseByRecyclerViewAdapter<ArrayList<AndroidBean>, BaseByViewHolder> {
 

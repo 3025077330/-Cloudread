@@ -7,7 +7,7 @@ import java.util.List;
 import me.jingbin.bymvvm.http.ParamNames;
 
 /**
- * Created by jingbin on 2016/11/30.
+ *
  * 首页item bean
  */
 

@@ -22,8 +22,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author jingbin
- * @data 2019/9/29
+
  * @Description wanandroid公众号的ViewModel
  */
 

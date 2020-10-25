@@ -4,9 +4,7 @@ package com.example.jingbin.cloudreader.bean;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author jingbin
- */
+
 public class ComingFilmBean {
 
     private String code;

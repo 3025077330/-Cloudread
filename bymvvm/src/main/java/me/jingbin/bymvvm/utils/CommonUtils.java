@@ -17,7 +17,6 @@ import java.util.Random;
 import me.jingbin.bymvvm.base.RootApplication;
 
 /**
- * Created by jingbin on 2016/11/22.
  * 获取原生资源
  */
 public class CommonUtils {

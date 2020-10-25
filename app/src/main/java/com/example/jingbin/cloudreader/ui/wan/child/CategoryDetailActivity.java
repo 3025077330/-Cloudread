@@ -21,7 +21,6 @@ import java.util.List;
 /**
  * 知识体系详情
  *
- * @author jingbin
  */
 public class CategoryDetailActivity extends AppCompatActivity {
 

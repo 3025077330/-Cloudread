@@ -10,9 +10,7 @@ import java.util.List;
 
 import me.jingbin.bymvvm.http.ParamNames;
 
-/**
- * Created by jingbin on 2016/11/24.
- */
+
 
 public class GankIoDataBean extends BaseObservable implements Serializable {
 

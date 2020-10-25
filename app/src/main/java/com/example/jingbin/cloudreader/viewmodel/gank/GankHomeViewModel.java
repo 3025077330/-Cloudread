@@ -14,10 +14,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * @author jingbin
- * @data 2020/04/26
- */
+
 public class GankHomeViewModel extends BaseViewModel {
 
     private final MutableLiveData<Boolean> isShowLoading = new MutableLiveData<>();

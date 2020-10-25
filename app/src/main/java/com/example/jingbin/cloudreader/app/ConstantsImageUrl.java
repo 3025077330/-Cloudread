@@ -2,7 +2,7 @@ package com.example.jingbin.cloudreader.app;
 
 /**
  * 固定图片链接
- * Created by jingbin on 2018/10/21.
+ *
  */
 
 public class ConstantsImageUrl {

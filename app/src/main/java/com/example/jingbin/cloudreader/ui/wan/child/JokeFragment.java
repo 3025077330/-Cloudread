@@ -24,8 +24,6 @@ import java.util.Random;
 import me.jingbin.library.ByRecyclerView;
 
 /**
- * @author jingbin
- * Updated by jingbin on 18/12/23.
  */
 public class JokeFragment extends BaseFragment<JokeViewModel, FragmentWanAndroidBinding> {
 

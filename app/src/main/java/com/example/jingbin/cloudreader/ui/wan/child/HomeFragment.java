@@ -41,9 +41,6 @@ import me.jingbin.sbanner.holder.SBannerViewHolder;
 
 /**
  * 玩安卓首页
- *
- * @author jingbin
- * Updated on 18/02/07...19/05/16
  */
 public class HomeFragment extends BaseFragment<WanAndroidListViewModel, FragmentWanAndroidBinding> {
 

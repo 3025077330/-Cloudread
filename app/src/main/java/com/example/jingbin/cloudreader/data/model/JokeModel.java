@@ -18,11 +18,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 
-/**
- * @author jingbin
- * @data 2018/2/9
- * @Description
- */
+
 
 public class JokeModel {
 

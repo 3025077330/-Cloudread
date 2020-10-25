@@ -6,8 +6,6 @@ import android.net.NetworkInfo;
 
 /**
  * 用于判断是不是联网状态
- *
- * @author Dzy
  */
 public class CheckNetwork {
 

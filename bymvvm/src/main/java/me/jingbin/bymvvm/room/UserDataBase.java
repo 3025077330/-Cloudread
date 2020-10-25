@@ -11,9 +11,6 @@ import me.jingbin.bymvvm.base.RootApplication;
 
 
 /**
- * @author jingbin
- * @date 2018/4/20
- * @description you've changed schema but forgot to update the version number
  * 改变数据库结构要改变版本号,不然会抛异常！
  * version = 3 更新积分和排名字段
  * 每更改一次版本，注意更改 new Migration(2, 3)部分

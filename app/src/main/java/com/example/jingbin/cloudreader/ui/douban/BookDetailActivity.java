@@ -25,8 +25,6 @@ import io.reactivex.schedulers.Schedulers;
 
 /**
  * 书籍详情
- *
- *
  */
 public class BookDetailActivity extends BaseHeaderActivity<HeaderBookDetailBinding, ActivityBookDetailBinding> {
 

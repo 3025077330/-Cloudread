@@ -9,9 +9,7 @@ import java.io.Serializable;
 
 import me.jingbin.bymvvm.http.ParamNames;
 
-/**
- * Created by jingbin on 2016/11/25.
- */
+
 
 public class ImagesBean extends BaseObservable implements Serializable{
     /**

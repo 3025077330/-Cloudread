@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jingbin on 2016/12/15.
+ * 书籍适配器
  */
 
 public class BookAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

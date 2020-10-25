@@ -20,10 +20,7 @@ import java.util.ArrayList;
 
 import io.reactivex.disposables.Disposable;
 
-/**
- * @author jingbin
- * @data 2017/12/15
- */
+
 public class EverydayViewModel extends BaseViewModel {
 
     private EverydayModel mEverydayModel;

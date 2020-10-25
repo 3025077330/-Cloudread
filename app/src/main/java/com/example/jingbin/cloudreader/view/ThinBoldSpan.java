@@ -10,8 +10,6 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
 /**
- * @author jingbin
- * @data 2019-12-06
  * @description 中等的黑
  */
 public class ThinBoldSpan extends CharacterStyle {

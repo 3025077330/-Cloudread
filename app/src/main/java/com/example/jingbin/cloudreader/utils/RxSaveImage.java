@@ -50,8 +50,7 @@ import io.reactivex.schedulers.Schedulers;
 
 /**
  * 保存图片，重复插入图片提示已存在
- *
- * @author jingbin
+
  */
 public class RxSaveImage {
 

@@ -8,11 +8,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * @author jingbin
- * @data 2018/4/19
- * @Description
- */
+
 
 public class UserDataBaseSource {
 

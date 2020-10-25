@@ -22,7 +22,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 
 /**
- * Created by jingbin on 16/11/21.
+ *
  * 展示干货的页面
  */
 public class GankFragment extends BaseFragment<NoViewModel, FragmentContentBinding> {

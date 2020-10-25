@@ -15,8 +15,7 @@ import java.util.ArrayList;
 
 /**
  * 玩安卓收藏
- *
- * @author jingbin
+
  */
 public class MyCollectActivity extends BaseActivity<NoViewModel, ActivityMyCollectBinding> {
 

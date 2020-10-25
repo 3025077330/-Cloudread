@@ -14,7 +14,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
 /**
- * Created by jingbin on 2016/11/25.
+ * 豆瓣书籍适配器
  */
 
 public class DouBookAdapter extends BaseBindingAdapter<BooksBean, ItemBookBinding> {

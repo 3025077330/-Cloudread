@@ -16,7 +16,6 @@ import me.jingbin.bymvvm.base.NoViewModel;
 import java.util.ArrayList;
 
 /**
- * Created by jingbin on 19/05/16.
  * 展示热映榜和即将上映的页面
  */
 public class FilmFragment extends BaseFragment<NoViewModel, FragmentContentBinding> {

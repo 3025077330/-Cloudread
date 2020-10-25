@@ -5,7 +5,6 @@ import android.util.AttributeSet;
 import android.widget.ScrollView;
 
 /**
- * Created by CZH on 2015/9/1.
  * 发现页面的ScrollView，用来写ActionBar渐变
  */
 public class DiscoverScrollView extends ScrollView{

@@ -15,10 +15,6 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * @author jingbin
- * @data 2018/12/22
- */
 
 public class OneViewModel extends BaseViewModel {
 

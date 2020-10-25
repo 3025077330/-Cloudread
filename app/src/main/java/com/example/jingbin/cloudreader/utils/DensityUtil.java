@@ -11,9 +11,7 @@ import android.widget.RelativeLayout;
 
 import com.example.jingbin.cloudreader.app.App;
 
-/**
- * Created by jingbin on 2015/10/19.
- */
+
 public class DensityUtil {
 
     /**

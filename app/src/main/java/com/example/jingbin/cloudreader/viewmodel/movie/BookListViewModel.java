@@ -15,10 +15,8 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 
-/**
- * @author jingbin
- * @data 2018/12/23
- */
+
+
 
 public class BookListViewModel extends BaseViewModel {
 

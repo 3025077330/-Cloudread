@@ -1,10 +1,6 @@
 package me.jingbin.bymvvm.room;
 
-/**
- * @author jingbin
- * @data 2018/4/19
- * @Description
- */
+
 
 public interface UserDataCallback {
 

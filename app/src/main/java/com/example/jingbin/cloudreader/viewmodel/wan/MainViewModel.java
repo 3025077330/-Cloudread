@@ -19,8 +19,6 @@ import me.jingbin.bymvvm.base.BaseViewModel;
 import me.jingbin.bymvvm.room.User;
 
 /**
- * @author jingbin
- * @data 2019/9/24
  * @Description 首页ViewModel
  */
 

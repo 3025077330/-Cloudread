@@ -12,10 +12,7 @@ import me.jingbin.library.ByRecyclerView;
 import me.jingbin.library.decoration.GridSpaceItemDecoration;
 import me.jingbin.library.decoration.SpacesItemDecoration;
 
-/**
- * @author jingbin
- * @data 2019/11/7
- */
+
 public class RefreshHelper {
 
     public static void initStaggeredGrid(ByRecyclerView recyclerView, int spanCount, int spacing) {

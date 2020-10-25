@@ -1,8 +1,5 @@
 package com.example.jingbin.cloudreader.app;
 
-/**
- * Created by jingbin on 2016/12/2.
- */
 
 public class RxCodeConstants {
 

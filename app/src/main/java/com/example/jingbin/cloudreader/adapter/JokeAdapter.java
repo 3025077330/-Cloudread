@@ -8,9 +8,7 @@ import com.example.jingbin.cloudreader.utils.TimeUtil;
 import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
-/**
- * Created by jingbin on 2016/11/25.
- */
+
 
 public class JokeAdapter extends BaseBindingAdapter<DuanZiBean, ItemJokeBinding> {
 

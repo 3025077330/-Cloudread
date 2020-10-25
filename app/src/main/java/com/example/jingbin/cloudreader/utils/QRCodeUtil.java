@@ -22,9 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-/**
- * Created by jingbin on 16/9/20.
- */
+
 public class QRCodeUtil {
     /**
      * 生成二维码Bitmap

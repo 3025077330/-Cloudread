@@ -7,9 +7,8 @@ import android.text.TextUtils;
 
 import com.example.jingbin.cloudreader.utils.DebugUtil;
 
-/**
- * @author jingbin
- */
+
+
 public class WebUtil {
 
     public static void startActivity(Activity activity, String url) {

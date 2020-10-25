@@ -21,8 +21,6 @@ import me.jingbin.bymvvm.room.Injection;
 
 
 /**
- * @author jingbin
- * @data 2018/5/7
  * @Description wanandroid登录的ViewModel
  */
 public class LoginViewModel extends BaseViewModel {

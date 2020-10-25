@@ -18,9 +18,6 @@ import com.example.jingbin.cloudreader.R;
 
 import java.io.File;
 
-/**
- * Created by jingbin on 2016/12/28.
- */
 
 public class ShareUtils {
 

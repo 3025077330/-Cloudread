@@ -1,8 +1,7 @@
 package com.example.jingbin.cloudreader.app;
 
 /**
- * Created by jingbin on 2016/11/26.
- * 固定参数
+ *   固定参数
  */
 
 public class Constants {

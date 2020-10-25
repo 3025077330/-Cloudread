@@ -10,7 +10,7 @@ import me.jingbin.bymvvm.adapter.BaseBindingAdapter;
 import me.jingbin.bymvvm.adapter.BaseBindingHolder;
 
 /**
- * Created by jingbin on 2019/03/14.
+ * 书籍类型适配器
  */
 
 public class BookTypeAdapter extends BaseBindingAdapter<String, ItemBookTypeBinding> {

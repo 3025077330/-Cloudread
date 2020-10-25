@@ -9,7 +9,7 @@ import retrofit2.Converter;
 import retrofit2.Retrofit;
 
 /**
- * Created by jingbin on 2017/2/14.
+ *
  */
 
 public class NullOnEmptyConverterFactory extends Converter.Factory {
