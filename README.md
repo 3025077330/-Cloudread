@@ -10,14 +10,7 @@
 
 A netease cloud music based UI, using wanandroid、Gank.Io and mtime API development accord with Google Material Desgin reading class open source projects.
 
-## Screenshots
 
-![](https://raw.githubusercontent.com/youlookwhat/CloudReader/master/file/images.png)
-![](https://raw.githubusercontent.com/youlookwhat/CloudReader/master/file/images2.png)
-
-#### Gif Preview
-
-![](https://raw.githubusercontent.com/youlookwhat/CloudReader/master/file/cloudreader.gif)
 
 ## Issues 宝贵意见
 如果有任何问题，请到github的[issue处][21]写上你不明白的地方，也可以通过下面提供的方式联系我，我会及时给予帮助。
